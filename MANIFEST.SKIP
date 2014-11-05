@@ -1,5 +1,4 @@
-\bRCS\b
-\bCVS\b
+\.git/
 ^MANIFEST\.
 ^Makefile$
 ~$
