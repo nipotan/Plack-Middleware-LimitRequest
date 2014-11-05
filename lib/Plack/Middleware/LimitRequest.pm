@@ -82,19 +82,6 @@ sub handle_error {
     ];
 }
 
-sub entity_too_large {
-    my $self = shift;
-    my $body = 'Entity Too Large';
-    return [
-        413,
-        [
-            'Content-Type'   => 'text/plain',
-            'Content-Length' => length $body,
-        ],
-        [ $body ],
-    ];
-}
-
 1;
 __END__
 
