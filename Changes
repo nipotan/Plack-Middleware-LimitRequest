@@ -1,0 +1,4 @@
+Revision history for Perl extension Plack::Middleware::LimitRequest
+
+0.01  Wed Nov  5 13:49:05 2014
+        - original version
