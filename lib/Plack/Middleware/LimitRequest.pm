@@ -7,7 +7,7 @@ use Carp;
 use parent qw(Plack::Middleware);
 use Plack::Util::Accessor qw(body fields field_size line);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub prepare_app {
     my $self = shift;
